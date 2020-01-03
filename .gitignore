@@ -1,0 +1,7 @@
+# Ignore JSON Input Files
+ *.json
+
+# Ignore CSV formatted text  Output File
+ *.txt
+
+
