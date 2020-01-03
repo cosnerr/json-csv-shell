@@ -18,12 +18,9 @@ Install the latest version of jq using the brew command for Mac.  The following 
    for f in $files; do ./parse_json.sh $f name timestamp >> $(date '+%Y%m%d%H')_Facebook_Friends_List.txt; done
    ```
 
-3. Review and run your shell script. The LinkedIn article tied to this code repo is located here:
+3. Review and run your shell script. The LinkedIn article tied to this code repo is located here: [LinkedIn Article](https://www.linkedin.com/pulse/build-your-technical-toolbox-ryan-cosner/)
 
-
-        https://www.linkedin.com/pulse/build-your-technical-toolbox-ryan-cosner/
-
-4. The script expects the following JSON Values for columns:
+4. The shell script expects the following JSON Values for columns:
 
     name | timestamp
     ---- | ---------
